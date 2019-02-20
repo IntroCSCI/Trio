@@ -14,11 +14,11 @@ int main()
 
   sortDescending(numA, numB, numC);
   
-  cout<<"From greatest to least, they are: ";
-  cout<<numA<<","<<numB<<","<<numC<<endl;
   return 0;
 }
+/*
 
+*/
 void sortDescending(int first, int second, int third)
 {
   if( first < third )
@@ -33,8 +33,13 @@ void sortDescending(int first, int second, int third)
   {
     swap(second,third);
   }
+  cout<<"From greatest to least, they are: ";
+  cout<<first<<second<<third<<endl;
 }
-
+/*
+Swap function takes in two parameters and changes their values so parameter
+first is equal to parameter second and vice versa. 
+*/
 void swap(int &first, int &second)
 {
   int temp = first;
