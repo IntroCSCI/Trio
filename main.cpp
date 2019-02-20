@@ -21,7 +21,7 @@ int main()
 /*
 sortDescending takes in three parameters and sorts each number from the first 
 parameter to the last, moving the biggest number to the front and prints out 
-all the numbers from left to right.
+all the numbers from largest to least in value.
 */
 void sortDescending(int first, int second, int third)
 {
