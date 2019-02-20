@@ -5,7 +5,9 @@ using std::endl;
 
 void sortDescending(int,int,int);
 void swap(int&,int&);
-
+/*
+main for c++;
+*/
 int main()
 {
   int numA, numB, numC;
@@ -17,7 +19,9 @@ int main()
   return 0;
 }
 /*
-
+sortDescending takes in three parameters and sorts each number from the first 
+parameter to the last, moving the biggest number to the front and prints out 
+all the numbers from left to right.
 */
 void sortDescending(int first, int second, int third)
 {
