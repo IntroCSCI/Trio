@@ -3,6 +3,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+
 void sortDescending(int,int,int);
 void swap(int&,int&);
 
@@ -13,7 +14,7 @@ int main()
   cin>>numA>>numB>>numC;
 
   sortDescending(numA, numB, numC);
-  
+
   cout<<"From greatest to least, they are: ";
   cout<<numA<<","<<numB<<","<<numC<<endl;
   return 0;
@@ -41,3 +42,4 @@ void swap(int &first, int &second)
   first = second;
   second = temp;
 }
+
